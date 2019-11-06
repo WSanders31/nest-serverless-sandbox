@@ -1,3 +1,5 @@
+version: 0.2
+
 phases:
   install:
     runtime-versions:
@@ -9,8 +11,6 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-  test:
-    commands:
       - echo Running tests...
       - npm test
   build:
